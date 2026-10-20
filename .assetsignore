@@ -1,0 +1,33 @@
+# Workers Static Assets 配信除外ファイル
+# .gitignore と同じ書式で記述する
+# https://developers.cloudflare.com/workers/static-assets/
+
+# Git 管理ファイル（アップロードするとサイズ超過エラーになる）
+.git/
+
+# Kiro IDE 設定
+.kiro/
+
+# Wrangler 設定・キャッシュ
+wrangler.jsonc
+.wrangler/
+
+# 依存パッケージ（将来 npm 導入時に備えて）
+node_modules/
+
+# 環境変数・シークレット
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+
+# ビルド成果物（このプロジェクトは A 分類のためビルドなし。将来利用の場合に備えて）
+dist/
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+
+# Git 無視設定（配信対象外）
+.gitignore
+.assetsignore

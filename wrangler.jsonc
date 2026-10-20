@@ -1,0 +1,15 @@
+{
+  // Cloudflare Workers 設定ファイル
+  // https://developers.cloudflare.com/workers/wrangler/configuration/
+
+  "name": "327-app",
+
+  // 静的アセットをそのままホスティングする
+  // 除外対象は .assetsignore で管理する
+  "assets": {
+    "directory": "."
+  },
+
+  // Workers ランタイムのバージョン
+  "compatibility_date": "2025-09-25"
+}

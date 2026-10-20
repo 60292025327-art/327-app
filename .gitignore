@@ -1,0 +1,18 @@
+# 依存パッケージ
+node_modules/
+
+# ビルド成果物
+dist/
+
+# 環境変数・シークレット
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+
+# Wrangler キャッシュ・一時ファイル
+.wrangler/
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
